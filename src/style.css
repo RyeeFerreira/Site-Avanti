@@ -1,0 +1,134 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+header{
+    height: 15%;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 10px;
+
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.promocao{
+    width: 100%;
+    height: 22%;
+    background-color: #005CFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.promocao p{
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+}
+
+.headerPrincipal{
+    width: 100%;
+    height: 78%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.avanti{
+    width: 120px;
+    height: 25px;
+}
+
+.pesquisa{
+    margin: 0 0 0 50px;
+    position: relative;
+}
+
+.pesquisa input{
+    width: 370px;
+    padding-right: 30px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0.1);
+    padding-left: 10px;
+}
+
+.pesquisa button{
+    position: absolute;
+    top: 4px;
+    right: 0;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.acessosDeUsuario{
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin: 0 0 0 200px;
+}
+
+.acessosDeUsuario img{
+    width: 14px;
+    height: 15px;
+}
+
+.usuario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    gap: 2px;
+}
+
+.acessosDeUsuario button{
+    border: 0;
+    height: 15px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+ul{
+    width: 100%;
+    margin: 0 45px 0 0;
+    display: flex;
+    gap: 37px;
+    list-style: none;
+    justify-content: center;
+}
+
+ul img{
+    width: 8px;
+    height: 8px;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    background-color: #E7E7EA;
+}
+
+.banner img{
+    width: 300px;
+    height: 300px;
+}
