@@ -1,0 +1,100 @@
+.categorias-container {
+    position: absolute; 
+    top: 92px;
+    left: 190px;
+    width: 890px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 0 0 10px 10px;
+    border-top: none;
+    padding: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    box-shadow: 0px 4px 8px -1px rgba(0, 0, 0, 0.08);            
+}
+
+.categorias-container h2 {
+    text-align: start;
+    margin: 0;
+    font-size: 18px;
+
+}
+
+.categorias-container div {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}   
+
+.categorias-container ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    text-align: center;
+    gap: 10px;
+    padding: 0;
+    font-size: 12px;
+    color: #656565;
+}
+
+.campoImg{
+    width: 300px;
+    height: 250px;
+    display: flex;
+    border-radius: 10px;
+    position: relative;
+    left: 0;
+    background-image: 
+    linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.6) 100%),
+    url('/src/assets/images/xicaraPreta2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    box-sizing: content-box   ;
+}
+
+.campoImg img{
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    background: linear-gradient(to bottom left, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.categorias-container h3 {
+    position: absolute;
+    color: white;
+    font-weight: 100;
+    left: 20px;
+    width: 100px; 
+
+}
+
+.bold2{
+    font-weight: 700;
+    color: white;
+    display: flex;
+    
+}
+
+.verMais{
+    position: absolute;
+    color: white;
+    left: 20px;
+    top: 170px;
+    padding: 8px 10px 8px 10px;
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: 700;
+}

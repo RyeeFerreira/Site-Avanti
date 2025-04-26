@@ -18,6 +18,12 @@ header{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     position: relative;
 }
+header button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    height: 15px;
+}
 
 .promocao{
     width: 100%;
@@ -67,9 +73,6 @@ header{
     position: absolute;
     top: 4px;
     right: 0;
-    border: 0;
-    background-color: transparent;
-    cursor: pointer;
 }
 
 .acessosDeUsuario{
@@ -95,8 +98,7 @@ header{
 .acessosDeUsuario button{
     border: 0;
     height: 15px;
-    background-color: transparent;
-    cursor: pointer;
+   
 }
 
 ul{
@@ -179,11 +181,6 @@ main{
     font-size: 15px;
     margin: 0;
     padding: 0;
-}
-
-.preProdutos button{
-    background-color: transparent;
-    border: none;
 }
 
 .produtos{
